@@ -1,0 +1,31 @@
+/* Adding the default styling for the whole page */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 110%;
+}
+
+/* Creating the flexbox for the header so that everything fits in the space */
+.header {
+    width: 100%;
+    display: flex 1 1 0;
+    background-color: grey;
+    color: white;
+    justify-content: space-between;
+    padding:30px;
+    font-size: 32px;
+}
+
+/* Styling the link formation in the header */
+.links {
+    float:right;
+    display: flex;
+    gap:30px;
+}
+
+/* Adding color to the links in the header */
+.links a {
+    text-decoration: none;
+    color: lightgrey;
+}
