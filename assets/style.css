@@ -29,3 +29,15 @@
     text-decoration: none;
     color: lightgrey;
 }
+
+/* Formatting the page footer */
+.footer {
+    width: 100%;
+    display: flex;
+    background-color: grey;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    padding: 30px;
+}
