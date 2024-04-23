@@ -15,6 +15,7 @@ header {
     font-size:32px;
 }
 
+/* Remove the blue color and underline from the links */
 a {
     text-decoration: none;
     color: inherit;
@@ -88,6 +89,7 @@ a {
     padding-top: 20px;
 }
 
+/* This will keep the pictures evenly spaced */
 .pics {
     justify-content: space-around;
 }
@@ -123,28 +125,34 @@ a {
     padding: 30px;
 }
 
+/* The following css will adjust how things look when the page is smaller so that it looks appropriate on mobile screens */
 @media screen and (max-width: 768px) {
 
+/* Set everything to center alignment for aesthetic */
 * {
     text-align: center;
 }
 
+/* Make all the objects form a column */
 header, .links, .container1, .body, .container2, .bodysection, .footer {
     flex-direction: column;
     padding: 10px, 0px;
     align-items: center;
 }
 
+/* Remove the gap between the now vertical links, it is no longer needed */
 .links {
     gap: 0px;
 }
 
+/* Removing some padding so that everything is center aligned */
 .pic1, .content {
     padding: 0px;
     justify-content: center;
     max-width: 100%;
 }
 
+/* Removing the format for these parts including box shadow etc.. */
 .bodytitle {
     font-size: 36px;
     width: 100%;
