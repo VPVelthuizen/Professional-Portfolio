@@ -5,7 +5,7 @@
 }
 
 /* Creating the flexbox for the header so that everything fits in the space */
-.header {
+header {
     width: auto;
     display: flex;
     background-color: grey;
@@ -13,6 +13,11 @@
     justify-content: space-between;
     padding:20px;
     font-size:32px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* Styling the link formation in the header */
@@ -28,7 +33,6 @@
     padding: 20px 10px 20px 10px;
     font-size: 20px;
     background-color: lightgray;
-    align-items: center;
 }
 
 /* Formatting the titles of the body sections */
@@ -45,6 +49,7 @@
 .content {
     width: 80%;
     padding-left: 25px;
+    list-style: none;
 }
 
 /* Formatting picture of myself */
@@ -63,6 +68,9 @@
 .pic1 {
     padding-left: 50px;
     justify-content: right;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Formatting label of first photo */
@@ -113,4 +121,41 @@
     align-items: center;
     font-size: 32px;
     padding: 30px;
+}
+
+@media screen and (max-width: 768px) {
+
+* {
+    text-align: center;
+}
+
+header, .links, .container1, .body, .container2, .bodysection, .footer {
+    flex-direction: column;
+    padding: 10px, 0px;
+    align-items: center;
+}
+
+.links {
+    gap: 0px;
+}
+
+.pic1, .content {
+    padding: 0px;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.bodytitle {
+    font-size: 36px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 0px 0px 0px;
+    padding: 10px, 0px;
+    min-width: 0px;
+}
+
+.content {
+    width: auto;
+    padding: 10px, 0px;
+}
 }
