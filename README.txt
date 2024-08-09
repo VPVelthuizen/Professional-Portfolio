@@ -1,9 +1,39 @@
-Professional Portfolio
+https://survey.alchemer.com/s3/7048613/Student-Evaluations
 
-I am creating a repository to develop a website that will show my professional portfolio and showcase some of my coding skills and projects I have completed.
+60*60*24*1 = x
+due - current <= x
 
-This repository will be stored on Github and can be accessed at https://vpvelthuizen.github.io/Professional-Portfolio
+https://portal.dcf.ct.gov/Portal/CPSOR#home
 
-This repository does not require any installs or special equipment to access, only a web browser.
 
-Developed by Vincent Velthuzen
+Shajal gifts-
+Ghibli coloring book- 8
+copic markers- 50
+calcifer lamp- 14
+spirited away mug- 12
+gemini necklace- 13
+total: 97
+Leftover:400
+
+people who gave money-
+angie (10)
+jibreel (50)
+Vincent (58)
+Maria C (50)
+Anna L (100)
+Nick L (40)
+Rob M (20)
+Luke (50)
+Cole (69)
+Gabe and artie (50)
+Total: 497
+
+(sarah and jasmine and everyone who donated helped with ideas)
+
+
+To talk about in class todays:
+in routes: events.js company.js forum.js
+
+for office hours:
+attendance question,
+how to check my work
